@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  border: 1px solid beige;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-template-areas:
+    "a a a b b"
+    "c c d d d"
+    "c c e e f"
+    "g g g h h"
+    "i i j j j";
+  grid-gap: 20px;
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.i {
+  grid-area: i;
+}
+
+.j {
+  grid-area: j;
+}
+
+/* Use component, array, setinterval to update content */
